@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB2739B521C8D8FD00D61838 /* PhotoOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2739B421C8D8FC00D61838 /* PhotoOperations.swift */; };
+		CB2739B821C8ED4F00D61838 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2739B621C8ED4F00D61838 /* ImageCell.swift */; };
+		CB2739B921C8ED4F00D61838 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB2739B721C8ED4F00D61838 /* ImageCell.xib */; };
+		CB2739BB21C8F25C00D61838 /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2739BA21C8F25C00D61838 /* Placeholder.png */; };
 		CC4061271EFD20AB00F4BD19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4061261EFD20AB00F4BD19 /* AppDelegate.swift */; };
 		CC4061291EFD20AB00F4BD19 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4061281EFD20AB00F4BD19 /* ListViewController.swift */; };
 		CC40612C1EFD20AB00F4BD19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC40612A1EFD20AB00F4BD19 /* Main.storyboard */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB2739B421C8D8FC00D61838 /* PhotoOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoOperations.swift; sourceTree = "<group>"; };
+		CB2739B621C8ED4F00D61838 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		CB2739B721C8ED4F00D61838 /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		CB2739BA21C8F25C00D61838 /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
 		CC4061231EFD20AB00F4BD19 /* ClassicPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassicPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4061261EFD20AB00F4BD19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC4061281EFD20AB00F4BD19 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
@@ -60,10 +68,14 @@
 			children = (
 				CC4061261EFD20AB00F4BD19 /* AppDelegate.swift */,
 				CC4061281EFD20AB00F4BD19 /* ListViewController.swift */,
+				CB2739B421C8D8FC00D61838 /* PhotoOperations.swift */,
+				CB2739BA21C8F25C00D61838 /* Placeholder.png */,
 				CC40612A1EFD20AB00F4BD19 /* Main.storyboard */,
 				CC40612D1EFD20AB00F4BD19 /* Assets.xcassets */,
 				CC40612F1EFD20AB00F4BD19 /* LaunchScreen.storyboard */,
 				CC4061321EFD20AB00F4BD19 /* Info.plist */,
+				CB2739B621C8ED4F00D61838 /* ImageCell.swift */,
+				CB2739B721C8ED4F00D61838 /* ImageCell.xib */,
 			);
 			path = ClassicPhotos;
 			sourceTree = "<group>";
@@ -108,6 +120,7 @@
 				TargetAttributes = {
 					CC4061221EFD20AB00F4BD19 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = P6S43R948V;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC4061311EFD20AB00F4BD19 /* LaunchScreen.storyboard in Resources */,
+				CB2739BB21C8F25C00D61838 /* Placeholder.png in Resources */,
+				CB2739B921C8ED4F00D61838 /* ImageCell.xib in Resources */,
 				CC40612E1EFD20AB00F4BD19 /* Assets.xcassets in Resources */,
 				CC40612C1EFD20AB00F4BD19 /* Main.storyboard in Resources */,
 			);
@@ -149,7 +164,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC4061291EFD20AB00F4BD19 /* ListViewController.swift in Sources */,
+				CB2739B821C8ED4F00D61838 /* ImageCell.swift in Sources */,
 				CC4061271EFD20AB00F4BD19 /* AppDelegate.swift in Sources */,
+				CB2739B521C8D8FD00D61838 /* PhotoOperations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P6S43R948V;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -279,7 +297,7 @@
 				);
 				INFOPLIST_FILE = ClassicPhotos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.TuanAnh.ClassicPhotos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TuanAnh.ClassicPhotos.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -289,6 +307,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P6S43R948V;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -296,7 +315,7 @@
 				);
 				INFOPLIST_FILE = ClassicPhotos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.TuanAnh.ClassicPhotos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TuanAnh.ClassicPhotos.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
